@@ -14,19 +14,22 @@ PCA model to visualize its higher-dimensional data and we have to train an
 LDA(Linear Discriminant Analysis) model to predict which of the products has
 been shipped and which of the products has been canceled.
 
-● Data Loading and Exploration. (10 points)
+● Data Loading and Exploration.
 1. Clean and prepare the data.
 2. Plot relevant graphs to understand the data.
+
 ● PCA FOR VISUALIZATION
 1. Take the help of PCA to reduce the data to 2 dimensions.
 2. Take the first and second principal components and plot a scatter plot
 with the labels.
 3. Write the intuitions about the scatter plot.
+
 ● PCA FOR DIMENSION REDUCTION
 1. Fit the PCA model on the data and plot a graph between n_components
 and cumulative explained variance.
 2. In how many components we are getting approximately 90% of explained
 Variance.
+
 ● LDA
 1. Split the dataset into train and test parts.
 2. Train a Linear Discriminant Analysis(LDA) model on the train data. Do
